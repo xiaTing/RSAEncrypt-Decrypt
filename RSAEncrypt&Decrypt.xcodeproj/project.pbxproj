@@ -19,6 +19,7 @@
 		84623FA41CCD0F170046315A /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 84623F9D1CCD0F170046315A /* NSString+Base64.m */; };
 		84623FA51CCD0F170046315A /* publick_KEY.der in Resources */ = {isa = PBXBuildFile; fileRef = 84623F9E1CCD0F170046315A /* publick_KEY.der */; };
 		84623FA61CCD0F170046315A /* QFRSATool.m in Sources */ = {isa = PBXBuildFile; fileRef = 84623FA01CCD0F170046315A /* QFRSATool.m */; };
+		84938E131CD09EB000F75C6C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84938E121CD09EB000F75C6C /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		84623F9E1CCD0F170046315A /* publick_KEY.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = publick_KEY.der; sourceTree = "<group>"; };
 		84623F9F1CCD0F170046315A /* QFRSATool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRSATool.h; sourceTree = "<group>"; };
 		84623FA01CCD0F170046315A /* QFRSATool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRSATool.m; sourceTree = "<group>"; };
+		84938E111CD09EB000F75C6C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		84938E121CD09EB000F75C6C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				84623F8D1CCD0EF70046315A /* LaunchScreen.storyboard */,
 				84623F901CCD0EF70046315A /* Info.plist */,
 				84623F7F1CCD0EF70046315A /* Supporting Files */,
+				84938E111CD09EB000F75C6C /* TestViewController.h */,
+				84938E121CD09EB000F75C6C /* TestViewController.m */,
 			);
 			path = "RSAEncrypt&Decrypt";
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			files = (
 				84623F871CCD0EF70046315A /* ViewController.m in Sources */,
 				84623FA31CCD0F170046315A /* NSData+Base64.m in Sources */,
+				84938E131CD09EB000F75C6C /* TestViewController.m in Sources */,
 				84623F841CCD0EF70046315A /* AppDelegate.m in Sources */,
 				84623FA61CCD0F170046315A /* QFRSATool.m in Sources */,
 				84623F811CCD0EF70046315A /* main.m in Sources */,
@@ -346,6 +352,7 @@
 				84623F951CCD0EF70046315A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
